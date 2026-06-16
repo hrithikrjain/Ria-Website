@@ -1,0 +1,39 @@
+{
+  "slug": "bangles-10",
+  "title": "Heritage Carved Bangle Set",
+  "category": "Bangles",
+  "category_slug": "bangles",
+  "occasions": [
+    "Bridal",
+    "Reception"
+  ],
+  "style": [
+    "Traditional",
+    "Royal Bridal"
+  ],
+  "metal": "Gold",
+  "price_band": "Premium",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/bangles/bangles 10N (7495).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 7495,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

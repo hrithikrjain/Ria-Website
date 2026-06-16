@@ -1,0 +1,40 @@
+{
+  "slug": "long-set-06",
+  "title": "Pearl Drop Long Set",
+  "category": "Long Set",
+  "category_slug": "long-set",
+  "occasions": [
+    "Bridal",
+    "Festive",
+    "Reception"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/long-set/long set 6N (4985).jpeg",
+    "/assets/images/products/long-set/long set 6M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 4985,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

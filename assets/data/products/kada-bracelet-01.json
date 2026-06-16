@@ -1,0 +1,44 @@
+{
+  "slug": "kada-bracelet-01",
+  "title": "Royal Filigree Kada — Triple Finish",
+  "category": "Kada Bracelet",
+  "category_slug": "kada-bracelet",
+  "occasions": [
+    "Bridal",
+    "Festive",
+    "Reception"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Multi",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": true,
+  "bestseller": true,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/kada-bracelet/kada bracelet 1N (2795) (SGM).jpeg",
+    "/assets/images/products/kada-bracelet/kada bracelet 1M.png"
+  ],
+  "description": "",
+  "pricing_type": "SGM Finish Variants",
+  "sgm_price": 2795,
+  "sgm_finishes": [
+    "Silver",
+    "Gold",
+    "Copper Brown"
+  ],
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

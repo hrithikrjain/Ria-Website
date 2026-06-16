@@ -1,0 +1,40 @@
+{
+  "slug": "choker-06",
+  "title": "Jadau Emerald Choker",
+  "category": "Choker",
+  "category_slug": "choker",
+  "occasions": [
+    "Festive",
+    "Reception",
+    "Party Wear"
+  ],
+  "style": [
+    "Statement"
+  ],
+  "metal": "Gold",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/choker/choker 6N (4785).jpeg",
+    "/assets/images/products/choker/choker 6M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 4785,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

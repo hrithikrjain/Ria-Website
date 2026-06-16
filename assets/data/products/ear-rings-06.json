@@ -1,0 +1,40 @@
+{
+  "slug": "ear-rings-06",
+  "title": "Layered Tassel Earrings",
+  "category": "Ear Rings",
+  "category_slug": "ear-rings",
+  "occasions": [
+    "Party Wear",
+    "Cocktail",
+    "Sangeet"
+  ],
+  "style": [
+    "Statement",
+    "Contemporary"
+  ],
+  "metal": "Gold",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/ear-rings/ear ring 6 (2395).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 2395,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

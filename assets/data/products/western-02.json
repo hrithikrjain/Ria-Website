@@ -1,0 +1,41 @@
+{
+  "slug": "western-02",
+  "title": "Modern Link Chain Set",
+  "category": "Western Jewellery",
+  "category_slug": "western-jewellery",
+  "occasions": [
+    "Party Wear",
+    "Cocktail",
+    "Daily Wear"
+  ],
+  "style": [
+    "Western",
+    "Minimal"
+  ],
+  "metal": "Gold",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/western-jewellery/western jewellery 2 (3495).jpeg",
+    "/assets/images/products/western-jewellery/western jewellery 2M (3495).png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 3495,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

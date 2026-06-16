@@ -1,0 +1,39 @@
+{
+  "slug": "ear-rings-01",
+  "title": "Classic Jhumka Gold Earrings",
+  "category": "Ear Rings",
+  "category_slug": "ear-rings",
+  "occasions": [
+    "Festive",
+    "Bridal",
+    "Sangeet"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": true,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/ear-rings/ear ring 1 (2795).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 2795,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "bangles-01",
+  "title": "Antique Gold Temple Bangle Set",
+  "category": "Bangles",
+  "category_slug": "bangles",
+  "occasions": [
+    "Bridal",
+    "Festive",
+    "Reception"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "Premium",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/bangles/bangles 1N (8395).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 8395,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

@@ -1,0 +1,132 @@
+/* ============================================================
+   RIA ART JEWELLERY — BASE RESET & TYPOGRAPHY
+   ============================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  color: var(--ria-text-primary);
+  background-color: var(--ria-bg-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* ── SURFACE OVERRIDES ── */
+.page-collection,
+.page-product {
+  background-color: var(--ria-surface-tertiary);
+}
+
+.product-grid-wrapper {
+  background-color: var(--ria-surface-tertiary);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+}
+
+/* ── TYPOGRAPHY UTILITIES ── */
+.font-display   { font-family: var(--font-display); }
+.font-accent    { font-family: var(--font-accent); letter-spacing: 0.06em; }
+.text-hero      { font-size: var(--text-hero);    font-family: var(--font-display); font-weight: 500; line-height: 1.1; }
+.text-display   { font-size: var(--text-display); font-family: var(--font-display); font-weight: 500; line-height: 1.2; }
+.text-heading   { font-size: var(--text-heading); font-family: var(--font-display); font-weight: 500; line-height: 1.3; }
+.text-subhead   { font-size: var(--text-subhead); font-weight: 400; line-height: 1.5; }
+.text-body      { font-size: var(--text-body); }
+.text-small     { font-size: var(--text-small); }
+.text-micro     { font-size: var(--text-micro); }
+
+.text-gold      { color: var(--ria-gold-primary); }
+.text-muted     { color: var(--ria-text-muted); }
+.text-secondary { color: var(--ria-text-secondary); }
+.text-editorial { color: var(--ria-text-editorial); }
+.text-price     { color: var(--ria-text-price); }
+
+.section-eyebrow {
+  font-family: var(--font-accent);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ria-gold-primary);
+  display: block;
+  margin-bottom: var(--space-sm);
+}
+
+/* ── LAYOUT ── */
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 var(--space-xl);
+}
+
+.section {
+  padding: var(--space-3xl) 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.section-header .text-display {
+  color: var(--ria-text-editorial);
+  margin-bottom: var(--space-sm);
+}
+
+.section-ornament {
+  color: var(--ria-gold-primary);
+  font-size: 1rem;
+  margin: var(--space-sm) 0;
+  display: block;
+}
+
+/* ── PRODUCT GRID ── */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-lg);
+}
+
+@media (max-width: 1024px) {
+  .product-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .product-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-sm); }
+  .container { padding: 0 var(--space-md); }
+  .section { padding: var(--space-2xl) 0; }
+}

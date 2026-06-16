@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(\\(Get-Content \"C:\\\\Users\\\\Sandesh Jain\\\\Downloads\\\\Ria-Website\\\\assets\\\\js\\\\products-data.js\" | Measure-Object -Line\\).Lines)",
+      "PowerShell(python --version 2>$null)",
+      "PowerShell(node --version 2>$null)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(python scripts/create_collections.py)",
+      "Bash(python scripts/create_occasions.py)",
+      "Bash(node scripts/build.js)"
+    ]
+  }
+}

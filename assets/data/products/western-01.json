@@ -1,0 +1,40 @@
+{
+  "slug": "western-01",
+  "title": "Contemporary Layered Collar Set",
+  "category": "Western Jewellery",
+  "category_slug": "western-jewellery",
+  "occasions": [
+    "Party Wear",
+    "Cocktail"
+  ],
+  "style": [
+    "Western",
+    "Contemporary"
+  ],
+  "metal": "Gold",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/western-jewellery/western jewellery 1 (2795).jpeg",
+    "/assets/images/products/western-jewellery/western jewellery 1M (2795).png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 2795,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

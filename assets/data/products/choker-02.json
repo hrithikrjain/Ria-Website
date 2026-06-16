@@ -1,0 +1,40 @@
+{
+  "slug": "choker-02",
+  "title": "Antique Gold Temple Choker",
+  "category": "Choker",
+  "category_slug": "choker",
+  "occasions": [
+    "Festive",
+    "Reception",
+    "Wedding Guest"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": true,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/choker/choker 2N (5695).jpeg",
+    "/assets/images/products/choker/choker 2M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 5695,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

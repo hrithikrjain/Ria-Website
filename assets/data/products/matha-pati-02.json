@@ -1,0 +1,39 @@
+{
+  "slug": "matha-pati-02",
+  "title": "Classic Gold Maang Tikka",
+  "category": "Matha Pati",
+  "category_slug": "matha-pati",
+  "occasions": [
+    "Bridal",
+    "Sangeet",
+    "Festive"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": true,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/matha-pati/matha pati 2 (3295).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 3295,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

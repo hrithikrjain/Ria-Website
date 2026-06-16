@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Search | Ria Art Jewellery</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+SC:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/animations.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <style>
+    .search-page-hero {
+      background: var(--ria-bg-secondary);
+      padding: 48px var(--space-xl) 40px;
+      text-align: center;
+      border-bottom: 0.5px solid var(--ria-border-light);
+      margin-top: calc(38px + 72px);
+    }
+    .search-page-query {
+      font-family: var(--font-display);
+      font-size: clamp(1.4rem, 4vw, 2rem);
+      color: var(--ria-text-editorial);
+      margin: 8px 0 4px;
+    }
+    .search-page-count {
+      font-size: 0.875rem;
+      color: var(--ria-text-muted);
+      margin: 0;
+    }
+    .search-sort-wrap {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+      margin-left: auto;
+    }
+    .search-sort-wrap label {
+      font-family: var(--font-accent);
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      color: var(--ria-text-muted);
+      white-space: nowrap;
+    }
+    .search-sort-select {
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      color: var(--ria-text-primary);
+      background: transparent;
+      border: 1px solid var(--ria-border-medium);
+      border-radius: var(--radius-sm);
+      padding: 4px 24px 4px 8px;
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%236B5550' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 7px center;
+    }
+    .search-sort-select:focus { outline: none; border-color: var(--ria-gold-primary); }
+    .search-no-results {
+      text-align: center;
+      padding: 80px 24px;
+    }
+    .search-no-results svg { opacity: 0.25; margin: 0 auto 24px; display: block; }
+    .search-no-results h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      color: var(--ria-text-editorial);
+      margin-bottom: 12px;
+    }
+    .search-no-results p { font-size: 0.875rem; color: var(--ria-text-muted); margin-bottom: 24px; }
+    .search-no-results a { color: var(--ria-gold-primary); }
+  </style>
+</head>
+<body>
+
+<main>
+  <div class="search-page-hero">
+    <span class="section-label">SEARCH RESULTS</span>
+    <h1 class="search-page-query" id="search-heading">Searching…</h1>
+    <p class="search-page-count" id="result-count"></p>
+  </div>
+
+  <!-- Occasion filter chips + sort -->
+  <div class="quick-filter-bar" id="search-filter-bar">
+    <span class="quick-filter-label">Show:</span>
+    <button class="quick-filter-chip" data-occasion="Bridal">Bridal</button>
+    <button class="quick-filter-chip" data-occasion="Reception">Reception</button>
+    <button class="quick-filter-chip" data-occasion="Mehendi">Mehendi</button>
+    <button class="quick-filter-chip" data-occasion="Sangeet">Sangeet</button>
+    <button class="quick-filter-chip" data-occasion="Festive">Festive</button>
+    <button class="quick-filter-chip" data-occasion="Party Wear">Party Wear</button>
+    <button class="quick-filter-chip" data-occasion="Daily Wear">Daily Wear</button>
+    <div class="search-sort-wrap">
+      <label for="search-sort">SORT</label>
+      <select class="search-sort-select" id="search-sort">
+        <option value="featured">Featured</option>
+        <option value="newest">Newest</option>
+        <option value="price-asc">Price: Low → High</option>
+        <option value="price-desc">Price: High → Low</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Product grid -->
+  <section class="section" style="background:var(--ria-bg-primary);padding-top:32px">
+    <div class="container">
+      <div class="product-grid" id="search-results"></div>
+      <div id="no-results" style="display:none">
+        <div class="search-no-results">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <h2 id="no-results-heading">No results found</h2>
+          <p id="no-results-msg">Try a different search term, or browse our collections.</p>
+          <a href="/collections/" class="btn btn-gold" style="display:inline-flex;padding:12px 28px">Browse All Collections</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="/assets/js/products-data.js"></script>
+<script src="/assets/js/components.js"></script>
+<script src="/assets/js/whatsapp.js"></script>
+<script src="/assets/js/vault.js"></script>
+<script src="/assets/js/search.js"></script>
+<script src="/assets/js/main.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var allResults = [];
+  var activeOccasion = null;
+
+  /* ── Price display ── */
+  function getDisplayPrice(p) {
+    var fmt = function(n) { return '₹' + Number(n).toLocaleString('en-IN'); };
+    if (!p) return '';
+    if (p.pricing_type === 'Single Price')        return fmt(p.price || 0);
+    if (p.pricing_type === 'SGM Finish Variants') return fmt(p.sgm_price || 0) + ' / finish';
+    if (p.pricing_type === 'Quantity Variants')   return 'From ' + fmt(Math.min.apply(null, (p.quantity_variants || []).map(function(v) { return v.price; })));
+    if (p.pricing_type === 'Colour Variants')     return 'From ' + fmt(Math.min.apply(null, (p.colour_variants || []).map(function(v) { return v.price; })));
+    return fmt(p.price || 0);
+  }
+
+  /* ── Card HTML — identical structure to collection-page.js renderCard ── */
+  function renderCard(p) {
+    var price    = getDisplayPrice(p);
+    var hasModel = p.images && p.images.length > 1;
+    var waText   = encodeURIComponent(
+      'Hi! I\'m interested in "' + p.title + '" from Ria Art Jewellery 💛\n' +
+      'Category: ' + p.category + '\n' +
+      'Link: ' + window.location.origin + '/products/' + p.slug + '.html\n\n' +
+      'Please share availability and details. Thank you!'
+    );
+    var waNum = typeof WA_NUMBER !== 'undefined' ? WA_NUMBER : '919869939003';
+    var badges = [
+      p.bestseller  ? '<span class="badge badge-best">Bestseller</span>' : '',
+      p.new_arrival ? '<span class="badge badge-new">New</span>'         : '',
+    ].join('');
+
+    return '<article class="product-card hover-lift reveal' + (hasModel ? '' : ' no-model') + '"' +
+      ' data-slug="' + p.slug + '"' +
+      ' data-category="' + p.category + '"' +
+      ' data-occasions="' + (p.occasions || []).join(',') + '">' +
+
+      '<a href="/products/' + p.slug + '.html" class="product-card-link">' +
+        '<div class="product-card-image-wrap">' +
+          '<img src="/assets/images/products/' + p.images[0] + '"' +
+               ' alt="' + p.title + '" loading="lazy"' +
+               ' class="product-card-image product-img-n"' +
+               ' onerror="this.style.opacity=\'0\'">' +
+          (hasModel
+            ? '<img src="/assets/images/products/' + p.images[1] + '"' +
+                   ' alt="' + p.title + ' model" loading="lazy"' +
+                   ' class="product-card-image product-img-m"' +
+                   ' onerror="this.style.opacity=\'0\'">'
+            : '') +
+          '<div class="product-badges">' + badges + '</div>' +
+        '</div>' +
+      '</a>' +
+
+      '<div class="product-card-hover-overlay" aria-hidden="true">' +
+        '<a href="/products/' + p.slug + '.html" class="product-hover-view">View Details</a>' +
+        '<a href="https://wa.me/' + waNum + '?text=' + waText + '"' +
+           ' class="product-hover-wa" target="_blank" rel="noopener">' +
+          '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#25D366"/><path fill="#FFFFFF" d="M12 4C7.582 4 4 7.582 4 12c0 1.418.373 2.748 1.024 3.896L4 20.5l4.736-1.24A7.948 7.948 0 0012 20c4.418 0 8-3.582 8-8S16.418 4 12 4z"/><path fill="#25D366" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>' +
+          'Enquire' +
+        '</a>' +
+      '</div>' +
+
+      '<button class="product-vault-quick js-vault-add"' +
+              ' data-slug="' + p.slug + '"' +
+              ' aria-label="Save ' + p.title + ' to Inquiry Vault">' +
+        '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">' +
+          '<path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/>' +
+        '</svg>' +
+      '</button>' +
+
+      '<div class="product-card-body product-card-body--slim">' +
+        '<h3 class="product-card-name">' +
+          '<a href="/products/' + p.slug + '.html">' + p.title + '</a>' +
+        '</h3>' +
+        '<p class="product-card-price"><span class="price-amt">' + price + '</span></p>' +
+      '</div>' +
+    '</article>';
+  }
+
+  /* ── Sort ── */
+  function getSortedProducts(products, sortVal) {
+    var arr = products.slice();
+    if (sortVal === 'price-asc') {
+      arr.sort(function(a, b) { return getMinPrice(a) - getMinPrice(b); });
+    } else if (sortVal === 'price-desc') {
+      arr.sort(function(a, b) { return getMinPrice(b) - getMinPrice(a); });
+    } else if (sortVal === 'newest') {
+      arr.sort(function(a, b) { return (b.new_arrival ? 1 : 0) - (a.new_arrival ? 1 : 0); });
+    }
+    return arr;
+  }
+
+  function getMinPrice(p) {
+    if (p.pricing_type === 'Quantity Variants') return Math.min.apply(null, (p.quantity_variants || []).map(function(v) { return v.price; }));
+    if (p.pricing_type === 'Colour Variants')   return Math.min.apply(null, (p.colour_variants || []).map(function(v) { return v.price; }));
+    if (p.pricing_type === 'SGM Finish Variants') return p.sgm_price || 0;
+    return p.price || 0;
+  }
+
+  /* ── Render grid ── */
+  function renderGrid() {
+    var grid     = document.getElementById('search-results');
+    var noRes    = document.getElementById('no-results');
+    var count    = document.getElementById('result-count');
+    var sortVal  = document.getElementById('search-sort').value;
+
+    var filtered = allResults;
+    if (activeOccasion) {
+      filtered = allResults.filter(function(p) {
+        return (p.occasions || []).indexOf(activeOccasion) !== -1;
+      });
+    }
+
+    var sorted = getSortedProducts(filtered, sortVal);
+
+    if (!sorted.length) {
+      grid.innerHTML = '';
+      noRes.style.display = '';
+      count.textContent   = '';
+      var msg = document.getElementById('no-results-msg');
+      if (msg && activeOccasion) {
+        msg.textContent = 'No ' + activeOccasion + ' pieces match this search. Try removing the filter.';
+      } else if (msg) {
+        msg.textContent = 'Try a different search term, or browse our collections.';
+      }
+      return;
+    }
+
+    noRes.style.display = 'none';
+    count.textContent   = sorted.length + ' piece' + (sorted.length !== 1 ? 's' : '') + ' found';
+    grid.innerHTML      = sorted.map(renderCard).join('');
+
+    /* Wire vault add buttons */
+    grid.querySelectorAll('.js-vault-add').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var slug    = btn.dataset.slug;
+        var product = (window.RIA_PRODUCTS || []).find(function(p) { return p.slug === slug; });
+        if (product && window.addToVault) {
+          window.addToVault(product, {}, btn);
+          btn.classList.add('saved');
+        }
+      });
+    });
+
+    /* Scroll reveal */
+    if (window._riaRevealObserver) {
+      grid.querySelectorAll('.reveal').forEach(function(el) { window._riaRevealObserver.observe(el); });
+    } else if (window._revealObserver) {
+      grid.querySelectorAll('.reveal').forEach(function(el) { window._revealObserver.observe(el); });
+    } else {
+      var obs = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: 0.08 });
+      grid.querySelectorAll('.reveal:not(.visible)').forEach(function(el) { obs.observe(el); });
+    }
+  }
+
+  /* ── Search ── */
+  function runSearch(q) {
+    var heading = document.getElementById('search-heading');
+    var title   = document.getElementById('page-title');
+
+    if (!q) {
+      heading.textContent = 'Search';
+      if (title) title.textContent = 'Search | Ria Art Jewellery';
+      allResults = [];
+      renderGrid();
+      return;
+    }
+
+    if (heading) heading.textContent = '“' + q + '”';
+    if (title)   title.textContent   = 'Search: ' + q + ' | Ria Art Jewellery';
+
+    var ql = q.toLowerCase();
+    allResults = (window.RIA_PRODUCTS || []).filter(function(p) {
+      return p.title.toLowerCase().includes(ql) ||
+             p.category.toLowerCase().includes(ql) ||
+             (p.occasions || []).some(function(o) { return o.toLowerCase().includes(ql); }) ||
+             (p.style     || []).some(function(s) { return s.toLowerCase().includes(ql); }) ||
+             (p.metal     || '').toLowerCase().includes(ql) ||
+             (p.slug      || '').toLowerCase().includes(ql);
+    });
+
+    renderGrid();
+  }
+
+  /* ── Init ── */
+  document.addEventListener('DOMContentLoaded', function() {
+    var params = new URLSearchParams(window.location.search);
+    var q      = (params.get('q') || '').trim();
+
+    runSearch(q);
+
+    /* Occasion chips */
+    document.querySelectorAll('.quick-filter-chip[data-occasion]').forEach(function(chip) {
+      chip.addEventListener('click', function() {
+        var val = chip.dataset.occasion;
+        if (activeOccasion === val) {
+          activeOccasion = null;
+          chip.classList.remove('active');
+        } else {
+          document.querySelectorAll('.quick-filter-chip[data-occasion]').forEach(function(c) {
+            c.classList.remove('active');
+          });
+          activeOccasion = val;
+          chip.classList.add('active');
+        }
+        renderGrid();
+      });
+    });
+
+    /* Sort */
+    var sortSelect = document.getElementById('search-sort');
+    if (sortSelect) sortSelect.addEventListener('change', renderGrid);
+  });
+})();
+</script>
+</body>
+</html>

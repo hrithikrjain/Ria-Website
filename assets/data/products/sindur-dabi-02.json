@@ -1,0 +1,37 @@
+{
+  "slug": "sindur-dabi-02",
+  "title": "Carved Sindur Dabi",
+  "category": "Sindur Dabi",
+  "category_slug": "sindur-dabi",
+  "occasions": [
+    "Bridal"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/sindur-dabi/sindur dabi 2 (1295).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 1295,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

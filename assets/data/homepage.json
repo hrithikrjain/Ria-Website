@@ -1,0 +1,63 @@
+{
+  "announcement_bar_text": "Free shipping on orders above ₹2,999 | Handcrafted in Mumbai | WhatsApp us at +91 98699 39003",
+  "hero_slides": [
+    {
+      "image": "/assets/images/hero/hero-1.jpeg",
+      "title": "Crafted for Your Celebration",
+      "subtitle": "Handcrafted art jewellery from Mumbai — where every piece tells a story.",
+      "cta_text": "Explore Collections",
+      "cta_link": "/collections/bangles.html",
+      "overlay_opacity": 0.45
+    }
+  ],
+  "featured_config": {
+    "section_title": "Featured Pieces",
+    "section_subtitle": "Handpicked favourites from our artisans",
+    "max_items": 8,
+    "filter_by": "featured"
+  },
+  "explore_collections": [
+    { "slug": "bridal-set", "label": "Bridal Set" },
+    { "slug": "bangles", "label": "Bangles" },
+    { "slug": "choker", "label": "Choker" },
+    { "slug": "necklace-set", "label": "Necklace Set" },
+    { "slug": "ear-rings", "label": "Ear Rings" },
+    { "slug": "matha-pati", "label": "Matha Pati" },
+    { "slug": "long-set", "label": "Long Set" },
+    { "slug": "hath-panja", "label": "Hath Panja" }
+  ],
+  "shop_by_occasion": [
+    { "slug": "bridal", "label": "Bridal" },
+    { "slug": "reception", "label": "Reception" },
+    { "slug": "mehendi", "label": "Mehendi" },
+    { "slug": "sangeet", "label": "Sangeet" },
+    { "slug": "festive", "label": "Festive" },
+    { "slug": "party-wear", "label": "Party Wear" }
+  ],
+  "testimonials": [
+    {
+      "name": "Priya Mehta",
+      "location": "Mumbai",
+      "text": "Absolutely stunning bridal set! The quality is exceptional and the craftsmanship is unparalleled. Got so many compliments on my wedding day.",
+      "rating": 5
+    },
+    {
+      "name": "Anjali Sharma",
+      "location": "Delhi",
+      "text": "Ordered the choker necklace set and it arrived beautifully packaged. The antique gold finish is exactly as shown. Will definitely order again!",
+      "rating": 5
+    },
+    {
+      "name": "Sneha Patel",
+      "location": "Ahmedabad",
+      "text": "The customer service is wonderful and the jewellery is breathtaking. My sangeet look was perfect thanks to Ria Art Jewellery.",
+      "rating": 5
+    }
+  ],
+  "trust_badges": [
+    { "icon": "handcraft", "text": "Handcrafted in Mumbai" },
+    { "icon": "quality", "text": "Premium Quality" },
+    { "icon": "shipping", "text": "Pan India Delivery" },
+    { "icon": "whatsapp", "text": "WhatsApp Support" }
+  ]
+}

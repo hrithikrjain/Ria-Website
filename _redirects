@@ -1,0 +1,7 @@
+# Ria Art Jewellery — Cloudflare Pages URL rewrites
+# These serve a single template HTML for all dynamic URLs
+# without changing the browser URL (200 = rewrite, not redirect)
+
+/products/*    /product-template.html    200
+/collections/* /collection-template.html 200
+/occasions/*   /occasion-template.html   200

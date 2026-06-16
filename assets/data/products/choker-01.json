@@ -1,0 +1,40 @@
+{
+  "slug": "choker-01",
+  "title": "Kundan Pearl Bridal Choker",
+  "category": "Choker",
+  "category_slug": "choker",
+  "occasions": [
+    "Bridal",
+    "Reception"
+  ],
+  "style": [
+    "Royal Bridal",
+    "Traditional"
+  ],
+  "metal": "Kundan White",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": true,
+  "bestseller": true,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/choker/choker 1N (6395).jpeg",
+    "/assets/images/products/choker/choker 1M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 6395,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

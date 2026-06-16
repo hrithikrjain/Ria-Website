@@ -1,0 +1,43 @@
+{
+  "slug": "kada-bracelet-03",
+  "title": "Temple Carved Kada — Triple Finish",
+  "category": "Kada Bracelet",
+  "category_slug": "kada-bracelet",
+  "occasions": [
+    "Festive",
+    "Bridal"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Multi",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/kada-bracelet/kada bracelet 3N (2395) (SGM).jpeg",
+    "/assets/images/products/kada-bracelet/kada bracelet 3M.png"
+  ],
+  "description": "",
+  "pricing_type": "SGM Finish Variants",
+  "sgm_price": 2395,
+  "sgm_finishes": [
+    "Silver",
+    "Gold",
+    "Copper Brown"
+  ],
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

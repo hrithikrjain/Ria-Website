@@ -1,0 +1,37 @@
+{
+  "slug": "tops-02",
+  "title": "Antique Disc Tops",
+  "category": "Tops",
+  "category_slug": "tops",
+  "occasions": [
+    "Daily Wear"
+  ],
+  "style": [
+    "Minimal"
+  ],
+  "metal": "Gold",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/tops/tops 2 (1095).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 1095,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

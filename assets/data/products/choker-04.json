@@ -1,0 +1,39 @@
+{
+  "slug": "choker-04",
+  "title": "Floral Meenakari Choker",
+  "category": "Choker",
+  "category_slug": "choker",
+  "occasions": [
+    "Festive",
+    "Mehendi"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/choker/choker 4N (4395).jpeg",
+    "/assets/images/products/choker/choker 4M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 4395,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

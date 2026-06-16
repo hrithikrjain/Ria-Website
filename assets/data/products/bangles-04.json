@@ -1,0 +1,46 @@
+{
+  "slug": "bangles-04",
+  "title": "Filigree Thin Bangle Set",
+  "category": "Bangles",
+  "category_slug": "bangles",
+  "occasions": [
+    "Daily Wear",
+    "Festive"
+  ],
+  "style": [
+    "Minimal"
+  ],
+  "metal": "Gold",
+  "price_band": "Under ₹999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/bangles/bangles 4N (2 pcs - 865, 4 pcs - 2195).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Quantity Variants",
+  "quantity_variants": [
+    {
+      "label": "2 pcs",
+      "price": 865
+    },
+    {
+      "label": "4 pcs",
+      "price": 2195
+    }
+  ],
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

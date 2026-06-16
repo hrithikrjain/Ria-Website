@@ -1,0 +1,39 @@
+{
+  "slug": "hath-panja-10",
+  "title": "Minimal Boho Hath Panja",
+  "category": "Hath Panja",
+  "category_slug": "hath-panja",
+  "occasions": [
+    "Daily Wear",
+    "Party Wear"
+  ],
+  "style": [
+    "Minimal",
+    "Western"
+  ],
+  "metal": "Gold",
+  "price_band": "Under ₹999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/hath-panja/hath panja 10 (795).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 795,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

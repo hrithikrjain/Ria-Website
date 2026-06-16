@@ -1,0 +1,40 @@
+{
+  "slug": "bangles-06",
+  "title": "Kundan Studded Bangle Set",
+  "category": "Bangles",
+  "category_slug": "bangles",
+  "occasions": [
+    "Bridal",
+    "Reception",
+    "Sangeet"
+  ],
+  "style": [
+    "Traditional",
+    "Royal Bridal"
+  ],
+  "metal": "Gold",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": true,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/bangles/bangles 6N (5495).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 5495,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

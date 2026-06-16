@@ -1,0 +1,40 @@
+{
+  "slug": "bridal-set-05",
+  "title": "Classic Antique Bridal Set",
+  "category": "Bridal Set",
+  "category_slug": "bridal-set",
+  "occasions": [
+    "Bridal",
+    "Reception",
+    "Sangeet"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "Premium",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": true,
+  "new_arrival": false,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/bridal-set/bridal set 5N (7895).jpeg",
+    "/assets/images/products/bridal-set/bridal set 5M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 7895,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

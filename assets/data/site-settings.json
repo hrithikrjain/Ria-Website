@@ -1,0 +1,21 @@
+{
+  "site_name": "Ria Art Jewellery",
+  "tagline": "Crafted for Your Celebration",
+  "announcement_bar_text": "Free shipping on orders above ₹2,999 | Handcrafted in Mumbai | WhatsApp us at +91 98699 39003",
+  "announcement_bar_enabled": true,
+  "contact_phone": "+919869939003",
+  "contact_whatsapp": "919869939003",
+  "contact_email": "riaartjewellery@gmail.com",
+  "contact_address": "Malad West, Mumbai, Maharashtra",
+  "social_instagram": "https://www.instagram.com/riaartjewellery",
+  "social_facebook": "",
+  "social_youtube": "",
+  "whatsapp_message_template": "Hi! I am interested in the following products from Ria Art Jewellery:",
+  "footer_about": "Ria Art Jewellery is a Mumbai-based handcrafted jewellery brand specialising in bridal, festive, and occasion jewellery. Every piece is crafted with love by our artisans in Malad West, Mumbai.",
+  "trust_badges": [
+    { "icon": "handcraft", "text": "Handcrafted in Mumbai" },
+    { "icon": "quality", "text": "Premium Quality" },
+    { "icon": "shipping", "text": "Pan India Delivery" },
+    { "icon": "whatsapp", "text": "WhatsApp Support" }
+  ]
+}

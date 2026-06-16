@@ -1,0 +1,38 @@
+{
+  "slug": "bangles-02",
+  "title": "Royal Jadau Bangle Set",
+  "category": "Bangles",
+  "category_slug": "bangles",
+  "occasions": [
+    "Bridal",
+    "Reception"
+  ],
+  "style": [
+    "Royal Bridal"
+  ],
+  "metal": "Gold",
+  "price_band": "Premium",
+  "availability": "Available",
+  "featured": true,
+  "bestseller": true,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/bangles/bangles 2N (9285).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 9285,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

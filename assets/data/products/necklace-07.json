@@ -1,0 +1,39 @@
+{
+  "slug": "necklace-07",
+  "title": "Heritage Mala Necklace Set",
+  "category": "Necklace Set",
+  "category_slug": "necklace-set",
+  "occasions": [
+    "Bridal",
+    "Reception"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/necklace-set/necklace 7N (5495).jpeg",
+    "/assets/images/products/necklace-set/necklace 7M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 5495,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

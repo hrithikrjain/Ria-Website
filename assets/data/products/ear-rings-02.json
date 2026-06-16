@@ -1,0 +1,39 @@
+{
+  "slug": "ear-rings-02",
+  "title": "Minimal Hoop Earrings",
+  "category": "Ear Rings",
+  "category_slug": "ear-rings",
+  "occasions": [
+    "Daily Wear",
+    "Party Wear"
+  ],
+  "style": [
+    "Minimal",
+    "Contemporary"
+  ],
+  "metal": "Gold",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/ear-rings/ear ring 2 (2295).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 2295,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

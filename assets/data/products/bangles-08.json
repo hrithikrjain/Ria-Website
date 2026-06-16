@@ -1,0 +1,39 @@
+{
+  "slug": "bangles-08",
+  "title": "Grand Bridal Bangle Set",
+  "category": "Bangles",
+  "category_slug": "bangles",
+  "occasions": [
+    "Bridal",
+    "Reception"
+  ],
+  "style": [
+    "Royal Bridal",
+    "Statement"
+  ],
+  "metal": "Gold",
+  "price_band": "Premium",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": true,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/bangles/bangles 8N (7985).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 7985,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

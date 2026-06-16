@@ -1,0 +1,39 @@
+{
+  "slug": "long-set-02",
+  "title": "Temple Gold Long Haram Set",
+  "category": "Long Set",
+  "category_slug": "long-set",
+  "occasions": [
+    "Bridal",
+    "Festive"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/long-set/long set 2N (5695).jpeg",
+    "/assets/images/products/long-set/long set 2M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 5695,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

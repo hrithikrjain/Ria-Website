@@ -1,0 +1,40 @@
+{
+  "slug": "mangal-sutra-01",
+  "title": "Modern Layered Mangal Sutra",
+  "category": "Mangal Sutra",
+  "category_slug": "mangal-sutra",
+  "occasions": [
+    "Bridal",
+    "Daily Wear"
+  ],
+  "style": [
+    "Minimal",
+    "Contemporary"
+  ],
+  "metal": "Gold",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": true,
+  "new_arrival": false,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/mangal-sutra/mangal sutra 1 (2795).jpeg",
+    "/assets/images/products/mangal-sutra/mangal sutra 1M (2795).png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 2795,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

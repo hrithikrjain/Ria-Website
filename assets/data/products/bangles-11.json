@@ -1,0 +1,47 @@
+{
+  "slug": "bangles-11",
+  "title": "Two-Tone Stone Bangle Set",
+  "category": "Bangles",
+  "category_slug": "bangles",
+  "occasions": [
+    "Festive",
+    "Mehendi",
+    "Sangeet"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Two-Tone",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": true,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/bangles/bangles 11N (Green - 1985, Blue - 2195).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Colour Variants",
+  "colour_variants": [
+    {
+      "colour": "Green",
+      "price": 1985
+    },
+    {
+      "colour": "Blue",
+      "price": 2195
+    }
+  ],
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Collections | Ria Art Jewellery — Crafted for your celebration</title>
+  <meta name="description" content="Browse all jewellery collections at Ria Art Jewellery — bangles, chokers, necklace sets, bridal jewellery and more. Handcrafted pieces for every occasion.">
+  <meta property="og:title" content="All Collections — Ria Art Jewellery">
+  <meta property="og:description" content="Browse 24 curated collections of handcrafted Indian jewellery. Find your perfect piece for weddings, festivals, and everyday wear.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ria Art Jewellery">
+  <link rel="canonical" href="/collections/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+SC:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/animations.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <style>
+    .collections-hero {
+      background: var(--ria-bg-warm);
+      padding: 80px 0 48px;
+      text-align: center;
+      border-bottom: 1px solid var(--ria-border);
+    }
+    .collections-hero-eyebrow {
+      font-family: var(--font-accent);
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ria-gold-primary);
+      margin-bottom: 12px;
+    }
+    .collections-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 400;
+      color: var(--ria-text-primary);
+      margin-bottom: 16px;
+    }
+    .collections-hero p {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      color: var(--ria-text-muted);
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .collections-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 24px;
+      padding: 56px 0;
+    }
+
+    .coll-card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      border-radius: 4px;
+      overflow: hidden;
+      background: var(--ria-bg-secondary);
+      border: 1px solid var(--ria-border);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .coll-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(61,26,18,0.12);
+    }
+    .coll-card-img {
+      position: relative;
+      aspect-ratio: 3 / 4;
+      overflow: hidden;
+      background: var(--ria-bg-warm);
+    }
+    .coll-card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .coll-card:hover .coll-card-img img {
+      transform: scale(1.04);
+    }
+    .coll-card-body {
+      padding: 16px 18px 18px;
+    }
+    .coll-card-name {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--ria-text-primary);
+      margin-bottom: 4px;
+    }
+    .coll-card-cta {
+      font-family: var(--font-accent);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ria-gold-primary);
+    }
+
+    @media (max-width: 480px) {
+      .collections-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+        padding: 32px 0;
+      }
+      .coll-card-body { padding: 12px 14px 14px; }
+      .coll-card-name { font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+
+<main>
+  <div class="collections-hero fade-in">
+    <div class="container">
+      <p class="collections-hero-eyebrow">Ria Art Jewellery</p>
+      <h1>All Collections</h1>
+      <p>Handcrafted Indian jewellery across 24 categories &mdash; from everyday elegance to bridal grandeur.</p>
+    </div>
+  </div>
+
+  <section class="section" style="background:var(--ria-bg-primary)">
+    <div class="container">
+      <div class="collections-grid">
+
+        <a href="/collections/bangles.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/bangles/bangles 2N (9285).jpeg" alt="Bangles" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Bangles</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/bridal-set.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/bridal-set/bridal set 2N (24495).jpeg" alt="Bridal Set" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Bridal Set</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/choker.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/choker/choker 1N (6395).jpeg" alt="Choker" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Choker</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/ear-chain.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/ear-chain/ear chain 1 (1695).jpeg" alt="Ear Chain" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Ear Chain</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/ear-cup.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/ear-cup/ear cup 1 (1985).jpeg" alt="Ear Cup" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Ear Cup</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/ear-rings.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/ear-rings/ear ring 7 (3985).jpeg" alt="Ear Rings" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Ear Rings</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/ghrom-mala.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/ghrom-mala/ghrom mala 2 (1495).jpeg" alt="Ghrom Mala" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Ghrom Mala</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/hand-cup.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/hand-cup/hand cup 5 (2695).jpeg" alt="Hand Cup" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Hand Cup</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/hath-panja.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/hath-panja/hath panja 1 (5285).jpeg" alt="Hath Panja" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Hath Panja</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/kada-bracelet.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/kada-bracelet/kada bracelet 1N (2795) (SGM).jpeg" alt="Kada Bracelet" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Kada Bracelet</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/kamar-patta.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/kamar-patta/kamar patta 1 (3895).jpeg" alt="Kamar Patta" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Kamar Patta</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/kilangi.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/kilangi/Kilangi 5 (3495).jpeg" alt="Kilangi" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Kilangi</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/long-set.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/long-set/long set 5N (10495).jpeg" alt="Long Set" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Long Set</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/mangal-sutra.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/mangal-sutra/mangal sutra 1 (2795).jpeg" alt="Mangal Sutra" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Mangal Sutra</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/matha-pati.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/matha-pati/matha pati 1 (4985).jpeg" alt="Matha Pati" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Matha Pati</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/nath.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/nath/nath 2 (985).jpeg" alt="Nath" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Nath</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/necklace-set.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/necklace-set/necklace 2N (10385).jpeg" alt="Necklace Set" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Necklace Set</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/payal.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/payal/payal 1 (2095).jpeg" alt="Payal" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Payal</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/pendant-set.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/pendant-set/pendant 4 (3295).jpeg" alt="Pendant Set" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Pendant Set</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/rings.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/rings/ring 15 (3195).jpeg" alt="Rings" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Rings</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/sindur-dabi.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/sindur-dabi/sindur dabi 1 (1595).jpeg" alt="Sindur Dabi" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Sindur Dabi</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/tika-bor.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/tika-bor/tika bor 26 (2395).jpeg" alt="Tika Bor" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Tika Bor</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/tops.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/tops/tops 7 (4985).jpeg" alt="Tops" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Tops</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+        <a href="/collections/western-jewellery.html" class="coll-card reveal">
+          <div class="coll-card-img"><img src="/assets/images/products/western-jewellery/western jewellery 2 (3495).jpeg" alt="Western Jewellery" loading="lazy" onerror="this.parentElement.style.background='var(--ria-bg-warm)'"></div>
+          <div class="coll-card-body"><p class="coll-card-name">Western Jewellery</p><p class="coll-card-cta">Shop Collection &rarr;</p></div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="/assets/js/products-data.js"></script>
+<script src="/assets/js/components.js"></script>
+<script src="/assets/js/whatsapp.js"></script>
+<script src="/assets/js/vault.js"></script>
+<script src="/assets/js/search.js"></script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "slug": "necklace-04",
+  "title": "Polki Layered Necklace Set",
+  "category": "Necklace Set",
+  "category_slug": "necklace-set",
+  "occasions": [
+    "Bridal",
+    "Reception"
+  ],
+  "style": [
+    "Royal Bridal"
+  ],
+  "metal": "Gold",
+  "price_band": "Premium",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/necklace-set/necklace 4N (7795).jpeg",
+    "/assets/images/products/necklace-set/necklace 4M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 7795,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "bridal-set-03",
+  "title": "Jadau Polki Heritage Bridal Set",
+  "category": "Bridal Set",
+  "category_slug": "bridal-set",
+  "occasions": [
+    "Bridal",
+    "Reception"
+  ],
+  "style": [
+    "Royal Bridal"
+  ],
+  "metal": "Gold",
+  "price_band": "Premium",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": true,
+  "new_arrival": false,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/bridal-set/bridal set 3N (19785).jpeg",
+    "/assets/images/products/bridal-set/bridal set 3M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 19785,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

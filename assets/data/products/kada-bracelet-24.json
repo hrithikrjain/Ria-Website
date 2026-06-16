@@ -1,0 +1,39 @@
+{
+  "slug": "kada-bracelet-24",
+  "title": "Grand Bridal Kada Bracelet",
+  "category": "Kada Bracelet",
+  "category_slug": "kada-bracelet",
+  "occasions": [
+    "Bridal",
+    "Reception"
+  ],
+  "style": [
+    "Royal Bridal",
+    "Statement"
+  ],
+  "metal": "Gold",
+  "price_band": "Premium",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/kada-bracelet/kada bracelet 24N (7395).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 7395,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

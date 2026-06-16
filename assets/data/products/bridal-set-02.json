@@ -1,0 +1,39 @@
+{
+  "slug": "bridal-set-02",
+  "title": "Grand Maharani Bridal Set",
+  "category": "Bridal Set",
+  "category_slug": "bridal-set",
+  "occasions": [
+    "Bridal"
+  ],
+  "style": [
+    "Royal Bridal",
+    "Statement"
+  ],
+  "metal": "Gold",
+  "price_band": "Premium",
+  "availability": "Available",
+  "featured": true,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/bridal-set/bridal set 2N (24495).jpeg",
+    "/assets/images/products/bridal-set/bridal set 2M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 24495,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

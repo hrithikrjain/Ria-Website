@@ -1,0 +1,40 @@
+{
+  "slug": "bridal-set-06",
+  "title": "Everyday Elegance Bridal Starter Set",
+  "category": "Bridal Set",
+  "category_slug": "bridal-set",
+  "occasions": [
+    "Bridal",
+    "Mehendi",
+    "Sangeet"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/bridal-set/bridal set 6N (2895).jpeg",
+    "/assets/images/products/bridal-set/bridal set 6M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 2895,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

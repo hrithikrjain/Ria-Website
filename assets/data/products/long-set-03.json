@@ -1,0 +1,39 @@
+{
+  "slug": "long-set-03",
+  "title": "Kundan Pearl Long Necklace Set",
+  "category": "Long Set",
+  "category_slug": "long-set",
+  "occasions": [
+    "Bridal",
+    "Reception"
+  ],
+  "style": [
+    "Royal Bridal"
+  ],
+  "metal": "Kundan White",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": true,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/long-set/long set 3N (6295).jpeg",
+    "/assets/images/products/long-set/long set 3M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 6295,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

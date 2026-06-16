@@ -1,0 +1,39 @@
+{
+  "slug": "long-set-05",
+  "title": "Imperial Gold Mala Set",
+  "category": "Long Set",
+  "category_slug": "long-set",
+  "occasions": [
+    "Bridal"
+  ],
+  "style": [
+    "Royal Bridal",
+    "Statement"
+  ],
+  "metal": "Gold",
+  "price_band": "Premium",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": true,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/long-set/long set 5N (10495).jpeg",
+    "/assets/images/products/long-set/long set 5M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 10495,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

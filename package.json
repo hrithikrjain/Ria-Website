@@ -1,0 +1,11 @@
+{
+  "name": "ria-art-jewellery",
+  "version": "1.0.0",
+  "description": "Ria Art Jewellery website",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "hath-panja-01",
+  "title": "Grand Kundan Hath Panja",
+  "category": "Hath Panja",
+  "category_slug": "hath-panja",
+  "occasions": [
+    "Bridal",
+    "Reception"
+  ],
+  "style": [
+    "Royal Bridal"
+  ],
+  "metal": "Kundan White",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/hath-panja/hath panja 1 (5285).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 5285,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

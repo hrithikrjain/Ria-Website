@@ -1,0 +1,356 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/ria-art-jewellery
+  branch: main
+  # Replace base_url below with your Cloudflare Worker URL after deploying the OAuth worker
+  base_url: https://your-oauth-worker.YOUR_SUBDOMAIN.workers.dev
+
+media_folder: assets/images/products
+public_folder: /assets/images/products
+
+# ─── PRODUCTS ─────────────────────────────────────────────────────────────────
+collections:
+  - name: products
+    label: Products
+    label_singular: Product
+    folder: assets/data/products
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    identifier_field: title
+    summary: "{{title}} — {{category}} — {{pricing_type}}"
+    sortable_fields: ["title", "category", "price_band", "availability"]
+    view_filters:
+      - label: Featured
+        field: featured
+        pattern: true
+      - label: New Arrivals
+        field: new_arrival
+        pattern: true
+      - label: Bestsellers
+        field: bestseller
+        pattern: true
+      - label: Published
+        field: published
+        pattern: true
+    fields:
+      - { label: "Product Name", name: title, widget: string }
+      - { label: "Slug (URL-friendly name, auto-generated)", name: slug, widget: string, hint: "e.g. bangles-01 — do not change after publishing" }
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - Bangles
+          - Bridal Set
+          - Choker
+          - Ear Chain
+          - Ear Cup
+          - Ear Rings
+          - Ghrom Mala
+          - Hand Cup
+          - Hath Panja
+          - Kada Bracelet
+          - Kamar Patta
+          - Kilangi
+          - Long Set
+          - Mangal Sutra
+          - Matha Pati
+          - Nath
+          - Necklace Set
+          - Payal
+          - Pendant Set
+          - Rings
+          - Sindur Dabi
+          - Tika Bor
+          - Tops
+          - Western Jewellery
+      - label: "Category Slug (auto — matches URL)"
+        name: category_slug
+        widget: select
+        options:
+          - bangles
+          - bridal-set
+          - choker
+          - ear-chain
+          - ear-cup
+          - ear-rings
+          - ghrom-mala
+          - hand-cup
+          - hath-panja
+          - kada-bracelet
+          - kamar-patta
+          - kilangi
+          - long-set
+          - mangal-sutra
+          - matha-pati
+          - nath
+          - necklace-set
+          - payal
+          - pendant-set
+          - rings
+          - sindur-dabi
+          - tika-bor
+          - tops
+          - western-jewellery
+      - label: "Pricing Type"
+        name: pricing_type
+        widget: select
+        options:
+          - { label: "Single Price (one fixed price)", value: "Single Price" }
+          - { label: "Quantity Variants (2 pcs, 4 pcs, etc.)", value: "Quantity Variants" }
+          - { label: "Colour Variants (different colours, different prices)", value: "Colour Variants" }
+          - { label: "SGM Finish Variants (Silver / Gold / Copper Brown)", value: "SGM Finish Variants" }
+      - { label: "Price (₹) — for Single Price", name: price, widget: number, required: false, default: 0 }
+      - { label: "SGM Finish Price (₹ per finish) — for SGM type", name: sgm_price, widget: number, required: false, default: 0 }
+      - label: "Quantity Variants — for Quantity type"
+        name: quantity_variants
+        widget: list
+        required: false
+        summary: "{{fields.label}} — ₹{{fields.price}}"
+        fields:
+          - { label: "Label (e.g. 2 pcs)", name: label, widget: string }
+          - { label: "Price (₹)", name: price, widget: number }
+      - label: "Colour Variants — for Colour type"
+        name: colour_variants
+        widget: list
+        required: false
+        summary: "{{fields.label}} — ₹{{fields.price}}"
+        fields:
+          - { label: "Colour Name", name: label, widget: string }
+          - { label: "Price (₹)", name: price, widget: number }
+          - { label: "Variant Image (optional)", name: image, widget: image, required: false }
+      - label: "Occasions"
+        name: occasions
+        widget: select
+        multiple: true
+        options:
+          - Bridal
+          - Reception
+          - Mehendi
+          - Sangeet
+          - Festive
+          - Party Wear
+          - Cocktail
+          - Wedding Guest
+          - Daily Wear
+      - label: "Style"
+        name: style
+        widget: select
+        multiple: true
+        options:
+          - Traditional
+          - Royal Bridal
+          - Contemporary
+          - Minimal
+          - Statement
+          - Indo-Western
+          - Western
+      - label: "Metal Tone"
+        name: metal
+        widget: select
+        options:
+          - Gold
+          - Rose Gold
+          - Silver
+          - Oxidised
+          - Copper Brown
+          - Kundan White
+          - Two-Tone
+          - Multi
+      - label: "Price Band"
+        name: price_band
+        widget: select
+        options:
+          - "Under ₹999"
+          - "₹1000–₹2999"
+          - "₹3000–₹5999"
+          - "Premium"
+      - label: "Availability"
+        name: availability
+        widget: select
+        default: "In Stock"
+        options:
+          - "In Stock"
+          - "Limited Stock"
+          - "Last Few Pieces"
+          - "Made to Order"
+          - "Out of Stock"
+      - { label: "Published", name: published, widget: boolean, default: true }
+      - { label: "Featured", name: featured, widget: boolean, default: false }
+      - { label: "New Arrival", name: new_arrival, widget: boolean, default: false }
+      - { label: "Bestseller", name: bestseller, widget: boolean, default: false }
+      - { label: "Lifetime Bead Guarantee", name: has_bead_guarantee, widget: boolean, default: false }
+      - { label: "Customizable", name: customizable, widget: boolean, default: false }
+      - label: "Product Images"
+        name: images
+        widget: list
+        allow_add: true
+        summary: "Image {{index}}"
+        field: { label: Image, name: image, widget: image }
+        hint: "Upload the N image first (product on white), then M image (model/lifestyle) if available"
+      - { label: "Description", name: description, widget: text, required: false, hint: "Shown on the product page. Leave blank for auto-generated." }
+      - { label: "Styling Tips", name: styling_tips, widget: text, required: false }
+      - { label: "Care Instructions", name: care_instructions, widget: text, required: false }
+      - label: "Product Highlights"
+        name: product_highlights
+        widget: list
+        required: false
+        field: { label: Highlight, name: highlight, widget: string }
+      - label: "Tags"
+        name: tags
+        widget: list
+        required: false
+        field: { label: Tag, name: tag, widget: string }
+      - { label: "SEO Title", name: meta_title, widget: string, required: false, hint: "Defaults to: Product Name | Ria Art Jewellery" }
+      - { label: "SEO Description", name: meta_description, widget: text, required: false }
+      - { label: "OG Image (Social Share)", name: og_image, widget: image, required: false }
+
+# ─── COLLECTIONS ──────────────────────────────────────────────────────────────
+  - name: collections
+    label: Collections
+    label_singular: Collection
+    folder: assets/data/collections
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    identifier_field: name
+    summary: "{{name}}"
+    fields:
+      - { label: "Collection Name", name: name, widget: string }
+      - { label: "Slug (URL slug)", name: slug, widget: string }
+      - { label: "Hero Image", name: hero_image, widget: image, required: false }
+      - { label: "Subtitle (shown under hero title)", name: subtitle, widget: string, required: false }
+      - { label: "Description", name: description, widget: text, required: false }
+      - { label: "Published", name: published, widget: boolean, default: true }
+      - { label: "Display Order", name: order, widget: number, default: 99 }
+      - { label: "SEO Title", name: meta_title, widget: string, required: false }
+      - { label: "SEO Description", name: meta_description, widget: text, required: false }
+      - { label: "OG Image", name: og_image, widget: image, required: false }
+
+# ─── OCCASIONS ────────────────────────────────────────────────────────────────
+  - name: occasions
+    label: Occasions
+    label_singular: Occasion
+    folder: assets/data/occasions
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    identifier_field: name
+    summary: "{{name}}"
+    fields:
+      - { label: "Occasion Name", name: name, widget: string }
+      - { label: "Slug", name: slug, widget: string }
+      - { label: "Hero Image", name: hero_image, widget: image, required: false }
+      - { label: "Subtitle", name: subtitle, widget: string, required: false }
+      - { label: "Description", name: description, widget: text, required: false }
+      - { label: "Styling Tips", name: styling_tips, widget: text, required: false }
+      - { label: "Published", name: published, widget: boolean, default: true }
+      - { label: "Display Order", name: order, widget: number, default: 99 }
+      - { label: "SEO Title", name: meta_title, widget: string, required: false }
+      - { label: "SEO Description", name: meta_description, widget: text, required: false }
+      - { label: "OG Image", name: og_image, widget: image, required: false }
+
+# ─── HOMEPAGE ─────────────────────────────────────────────────────────────────
+  - name: homepage
+    label: Homepage
+    files:
+      - label: Homepage Content
+        name: homepage
+        file: assets/data/homepage.json
+        fields:
+          - { label: "Announcement Bar Text", name: announcement_bar_text, widget: string, required: false }
+          - label: "Hero Slides"
+            name: hero_slides
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Image", name: image, widget: image }
+              - { label: "Title", name: title, widget: string }
+              - { label: "Subtitle", name: subtitle, widget: string, required: false }
+              - { label: "Button Text", name: cta_text, widget: string, default: "Explore Collections" }
+              - { label: "Button Link", name: cta_link, widget: string, default: "/" }
+          - label: "Explore Collections (homepage grid)"
+            name: explore_collections
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Collection Slug", name: slug, widget: string }
+              - { label: "Display Label", name: label, widget: string }
+          - label: "Shop by Occasion (homepage)"
+            name: shop_by_occasion
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Occasion Slug", name: slug, widget: string }
+              - { label: "Display Label", name: label, widget: string }
+          - label: "Testimonials"
+            name: testimonials
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Customer Name", name: name, widget: string }
+              - { label: "Location", name: location, widget: string, required: false }
+              - { label: "Review Text", name: text, widget: text }
+              - { label: "Rating (1–5)", name: rating, widget: number, default: 5 }
+
+# ─── SITE SETTINGS ────────────────────────────────────────────────────────────
+  - name: settings
+    label: Site Settings
+    files:
+      - label: Site Settings
+        name: site_settings
+        file: assets/data/site-settings.json
+        fields:
+          - { label: "Site Name", name: site_name, widget: string }
+          - { label: "Tagline", name: tagline, widget: string }
+          - { label: "Announcement Bar Text", name: announcement_bar_text, widget: string, required: false }
+          - { label: "Announcement Bar Enabled", name: announcement_bar_enabled, widget: boolean, default: true }
+          - { label: "WhatsApp Number (with country code, no +)", name: contact_whatsapp, widget: string, hint: "e.g. 919869939003" }
+          - { label: "Phone Number", name: contact_phone, widget: string, required: false }
+          - { label: "Email", name: contact_email, widget: string, required: false }
+          - { label: "Address", name: contact_address, widget: string, required: false }
+          - { label: "Business Hours", name: hours, widget: string, required: false }
+          - { label: "Instagram URL", name: social_instagram, widget: string, required: false }
+          - { label: "About Text (footer)", name: footer_about, widget: text, required: false }
+
+# ─── PAGES ────────────────────────────────────────────────────────────────────
+  - name: pages
+    label: Pages
+    files:
+      - label: About Us
+        name: about
+        file: assets/data/pages/about.json
+        fields:
+          - { label: "Page Title", name: title, widget: string }
+          - { label: "Hero Subtitle", name: hero_subtitle, widget: string, required: false }
+          - { label: "Page Body", name: body, widget: markdown }
+          - { label: "SEO Title", name: meta_title, widget: string, required: false }
+          - { label: "SEO Description", name: meta_description, widget: text, required: false }
+      - label: Shipping & Returns Policy
+        name: policy
+        file: assets/data/pages/policy.json
+        fields:
+          - { label: "Page Title", name: title, widget: string }
+          - { label: "Page Body", name: body, widget: markdown }
+          - { label: "SEO Title", name: meta_title, widget: string, required: false }
+          - { label: "SEO Description", name: meta_description, widget: text, required: false }
+      - label: Jewellery Care Guide
+        name: care_guide
+        file: assets/data/pages/care-guide.json
+        fields:
+          - { label: "Page Title", name: title, widget: string }
+          - { label: "Page Body", name: body, widget: markdown }
+          - { label: "SEO Title", name: meta_title, widget: string, required: false }
+          - { label: "SEO Description", name: meta_description, widget: text, required: false }
+      - label: Contact Us
+        name: contact
+        file: assets/data/pages/contact.json
+        fields:
+          - { label: "Page Title", name: title, widget: string }
+          - { label: "Intro Text", name: intro, widget: text, required: false }
+          - { label: "WhatsApp Number", name: whatsapp_number, widget: string }
+          - { label: "Email", name: email, widget: string, required: false }
+          - { label: "Address", name: address, widget: string, required: false }
+          - { label: "Business Hours", name: hours, widget: string, required: false }
+          - { label: "SEO Title", name: meta_title, widget: string, required: false }
+          - { label: "SEO Description", name: meta_description, widget: text, required: false }

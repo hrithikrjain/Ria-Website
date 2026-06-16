@@ -1,0 +1,40 @@
+{
+  "slug": "necklace-15",
+  "title": "Contemporary Minimal Necklace Set",
+  "category": "Necklace Set",
+  "category_slug": "necklace-set",
+  "occasions": [
+    "Daily Wear",
+    "Party Wear"
+  ],
+  "style": [
+    "Minimal",
+    "Contemporary"
+  ],
+  "metal": "Gold",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": true,
+  "images": [
+    "/assets/images/products/necklace-set/necklace 15N (2595).jpeg",
+    "/assets/images/products/necklace-set/necklace 15M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 2595,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

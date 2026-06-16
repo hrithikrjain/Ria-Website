@@ -1,0 +1,39 @@
+{
+  "slug": "ear-cup-05",
+  "title": "Statement Stone Ear Cup",
+  "category": "Ear Cup",
+  "category_slug": "ear-cup",
+  "occasions": [
+    "Party Wear",
+    "Cocktail",
+    "Reception"
+  ],
+  "style": [
+    "Statement"
+  ],
+  "metal": "Gold",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/ear-cup/ear cup 5 (1795).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 1795,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

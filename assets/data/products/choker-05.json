@@ -1,0 +1,39 @@
+{
+  "slug": "choker-05",
+  "title": "Pearl Layered Bridal Choker",
+  "category": "Choker",
+  "category_slug": "choker",
+  "occasions": [
+    "Bridal",
+    "Reception"
+  ],
+  "style": [
+    "Royal Bridal"
+  ],
+  "metal": "Gold",
+  "price_band": "₹3000–₹5999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": true,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/choker/choker 5N (6395).jpeg",
+    "/assets/images/products/choker/choker 5M.png"
+  ],
+  "description": "",
+  "pricing_type": "Single Price",
+  "price": 6395,
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "quantity_variants": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}

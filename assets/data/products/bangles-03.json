@@ -1,0 +1,47 @@
+{
+  "slug": "bangles-03",
+  "title": "Classic Gold Stack Bangles",
+  "category": "Bangles",
+  "category_slug": "bangles",
+  "occasions": [
+    "Festive",
+    "Party Wear",
+    "Mehendi"
+  ],
+  "style": [
+    "Traditional"
+  ],
+  "metal": "Gold",
+  "price_band": "₹1000–₹2999",
+  "availability": "Available",
+  "featured": false,
+  "bestseller": false,
+  "new_arrival": false,
+  "has_bead_guarantee": false,
+  "images": [
+    "/assets/images/products/bangles/bangles 3N (2 pcs - 1795, 4 pcs - 1985).jpeg"
+  ],
+  "description": "",
+  "pricing_type": "Quantity Variants",
+  "quantity_variants": [
+    {
+      "label": "2 pcs",
+      "price": 1795
+    },
+    {
+      "label": "4 pcs",
+      "price": 1985
+    }
+  ],
+  "styling_tips": "",
+  "care_instructions": "",
+  "product_highlights": [],
+  "published": true,
+  "customizable": false,
+  "tags": [],
+  "colour_variants": [],
+  "sgm_price": null,
+  "meta_title": "",
+  "meta_description": "",
+  "og_image": ""
+}
