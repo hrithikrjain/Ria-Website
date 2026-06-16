@@ -10,8 +10,7 @@
  */
 
 const ALLOWED_ORIGINS = [
-  'https://YOUR-SITE.pages.dev',   // Replace with your Cloudflare Pages URL
-  'https://YOUR-CUSTOM-DOMAIN.com', // Replace with your custom domain (if any)
+  'https://ria-website.pages.dev',
 ];
 
 export default {

@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR_GITHUB_USERNAME/ria-art-jewellery
+  repo: hrithikrjain/Ria-Website
   branch: main
   # Replace base_url below with your Cloudflare Worker URL after deploying the OAuth worker
   base_url: https://your-oauth-worker.YOUR_SUBDOMAIN.workers.dev
