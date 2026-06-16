@@ -43,7 +43,7 @@ function renderProduct(p) {
   const bc = document.getElementById('breadcrumb');
   if (bc) {
     const catSlug = slugify(p.category);
-    bc.innerHTML = `<a href="/index.html">Home</a> › <a href="/collections/${catSlug}.html">${p.category}</a> › ${p.title}`;
+    bc.innerHTML = `<a href="/index.html">Home</a> › <a href="/collections/${catSlug}">${p.category}</a> › ${p.title}`;
   }
 
   // Page title + meta
@@ -315,7 +315,7 @@ function renderRelatedProducts(p) {
     const price    = getDisplayPrice(r);
     const hasModel = r.images && r.images.length > 1;
     return `<article class="product-card${hasModel ? '' : ' no-model'}" data-slug="${r.slug}">
-      <a href="/products/${r.slug}.html" class="product-card-link">
+      <a href="/products/${r.slug}" class="product-card-link">
         <div class="product-card-image-wrap">
           <img src="/assets/images/products/${r.images[0]}"
                alt="${r.title}" loading="lazy"
@@ -329,7 +329,7 @@ function renderRelatedProducts(p) {
       </a>
       <div class="product-card-body product-card-body--slim">
         <h3 class="product-card-name">
-          <a href="/products/${r.slug}.html">${r.title}</a>
+          <a href="/products/${r.slug}">${r.title}</a>
         </h3>
         <p class="product-card-price"><span class="price-amt">${price}</span></p>
       </div>

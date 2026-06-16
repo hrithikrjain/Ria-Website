@@ -71,11 +71,11 @@ function renderOccasionGrid(products, occ) {
       'Hi! I\'m interested in "' + p.title + '" from Ria Art Jewellery.\n' +
       'Product: ' + p.title + '\n' +
       'Category: ' + p.category + '\n' +
-      'Link: ' + window.location.origin + '/products/' + p.slug + '.html\n\n' +
+      'Link: ' + window.location.origin + '/products/' + p.slug + '\n\n' +
       'Please confirm availability. Thank you!'
     );
     return '<article class="product-card hover-lift reveal" data-slug="' + p.slug + '" data-occasions="' + (p.occasions || []).join(',') + '">' +
-      '<a href="/products/' + p.slug + '.html" class="product-card-link">' +
+      '<a href="/products/' + p.slug + '" class="product-card-link">' +
         '<div class="product-card-image-wrap">' +
           '<img src="/assets/images/products/' + p.images[0] + '" alt="' + p.title + '" loading="lazy" class="product-card-image product-img-n" onerror="this.style.opacity=\'0\'">' +
           (hasModel ? '<img src="/assets/images/products/' + p.images[1] + '" alt="' + p.title + '" loading="lazy" class="product-card-image product-img-m" onerror="this.style.opacity=\'0\'">' : '') +
@@ -83,11 +83,11 @@ function renderOccasionGrid(products, occ) {
         '</div>' +
       '</a>' +
       '<div class="product-card-hover-overlay" aria-hidden="true">' +
-        '<a href="/products/' + p.slug + '.html" class="product-hover-view">View Details</a>' +
+        '<a href="/products/' + p.slug + '" class="product-hover-view">View Details</a>' +
         '<a href="https://wa.me/' + waNum + '?text=' + waText + '" class="product-hover-wa" target="_blank" rel="noopener">Enquire</a>' +
       '</div>' +
       '<div class="product-card-body product-card-body--slim">' +
-        '<h3 class="product-card-name"><a href="/products/' + p.slug + '.html">' + p.title + '</a></h3>' +
+        '<h3 class="product-card-name"><a href="/products/' + p.slug + '">' + p.title + '</a></h3>' +
         '<p class="product-card-price"><span class="price-amt">' + price + '</span></p>' +
       '</div>' +
     '</article>';

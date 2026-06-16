@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     searchDropdown.innerHTML = results.map(p => {
       const price = window.getPriceDisplay ? window.getPriceDisplay(p) : '';
       return `
-        <a href="/products/${p.slug}.html" class="search-result-item">
+        <a href="/products/${p.slug}" class="search-result-item">
           <img src="${p.images[0]}" alt="${p.title}" class="search-result-img" loading="lazy">
           <div>
             <div class="search-result-name">${highlight(p.title, q)}</div>

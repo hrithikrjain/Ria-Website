@@ -23,7 +23,7 @@ window.buildWALink = function (product, selectedVariant) {
   }
 
   const priceStr = price ? '₹' + price.toLocaleString('en-IN') : 'Please share price';
-  const productUrl = `${window.location.origin}/products/${product.slug}.html`;
+  const productUrl = `${window.location.origin}/products/${product.slug}`;
 
   const msg =
     `Hi! I'm interested in a piece from Ria Art Jewellery 💛\n\n` +
@@ -38,7 +38,7 @@ window.buildWALink = function (product, selectedVariant) {
 
 window.buildWALinkSimple = function (product) {
   const price = window.getPriceDisplay ? window.getPriceDisplay(product) : '';
-  const productUrl = `${window.location.origin}/products/${product.slug}.html`;
+  const productUrl = `${window.location.origin}/products/${product.slug}`;
 
   const msg =
     `Hi! I'm interested in "${product.title}" from Ria Art Jewellery.\n\n` +

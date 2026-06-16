@@ -9,7 +9,7 @@
   <meta property="og:title" content="Sangeet Jewellery — Ria Art Jewellery">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Ria Art Jewellery">
-  <link rel="canonical" href="/occasions/sangeet.html">
+  <link rel="canonical" href="/occasions/sangeet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+SC:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -72,19 +72,19 @@
     <div class="container">
       <h2 class="section-title text-center reveal" style="margin-bottom:28px;font-size:var(--text-heading)">Related Occasions</h2>
       <div style="display:flex;gap:12px;overflow-x:auto;padding-bottom:8px">
-        <a href="/occasions/bridal.html" class="occasion-card" style="flex:0 0 180px;aspect-ratio:3/4">
+        <a href="/occasions/bridal" class="occasion-card" style="flex:0 0 180px;aspect-ratio:3/4">
           <img src="/assets/images/products/bridal-set/bridal set 1N (13495).jpeg" alt="Bridal" loading="lazy">
           <div class="occasion-overlay"><span>Bridal</span></div>
         </a>
-        <a href="/occasions/reception.html" class="occasion-card" style="flex:0 0 180px;aspect-ratio:3/4">
+        <a href="/occasions/reception" class="occasion-card" style="flex:0 0 180px;aspect-ratio:3/4">
           <img src="/assets/images/products/necklace-set/necklace 4N (7795).jpeg" alt="Reception" loading="lazy">
           <div class="occasion-overlay"><span>Reception</span></div>
         </a>
-        <a href="/occasions/festive.html" class="occasion-card" style="flex:0 0 180px;aspect-ratio:3/4">
+        <a href="/occasions/festive" class="occasion-card" style="flex:0 0 180px;aspect-ratio:3/4">
           <img src="/assets/images/products/choker/choker 2N (5695).jpeg" alt="Festive" loading="lazy">
           <div class="occasion-overlay"><span>Festive</span></div>
         </a>
-        <a href="/occasions/party-wear.html" class="occasion-card" style="flex:0 0 180px;aspect-ratio:3/4">
+        <a href="/occasions/party-wear" class="occasion-card" style="flex:0 0 180px;aspect-ratio:3/4">
           <img src="/assets/images/products/western-jewellery/western jewellery 1 (2795).jpeg" alt="Party Wear" loading="lazy">
           <div class="occasion-overlay"><span>Party Wear</span></div>
         </a>
@@ -112,9 +112,9 @@ document.addEventListener('DOMContentLoaded', () => {
   grid.innerHTML = products.map(p => {
     const price = window.getDisplayPrice ? window.getDisplayPrice(p) : (p.price ? '₹'+p.price.toLocaleString('en-IN') : '');
     const hasModel = p.images && p.images.length > 1;
-    const waText = encodeURIComponent('Hi! I\'m interested in "'+p.title+'" from Ria Art Jewellery.\nProduct: '+p.title+'\nCategory: '+p.category+'\nLink: '+window.location.origin+'/products/'+p.slug+'.html\n\nPlease confirm availability. Thank you!');
+    const waText = encodeURIComponent('Hi! I\'m interested in "'+p.title+'" from Ria Art Jewellery.\nProduct: '+p.title+'\nCategory: '+p.category+'\nLink: '+window.location.origin+'/products/'+p.slug+'\n\nPlease confirm availability. Thank you!');
     return '<article class="product-card hover-lift reveal" data-slug="'+p.slug+'" data-occasions="'+(p.occasions||[]).join(',')+'">'+
-      '<a href="/products/'+p.slug+'.html" class="product-card-link">'+
+      '<a href="/products/'+p.slug+'" class="product-card-link">'+
         '<div class="product-card-image-wrap">'+
           '<img src="/assets/images/products/'+p.images[0]+'" alt="'+p.title+'" loading="lazy" class="product-card-image product-img-n" onerror="this.style.opacity=\'0\'">'+
           (hasModel ? '<img src="/assets/images/products/'+p.images[1]+'" alt="'+p.title+'" loading="lazy" class="product-card-image product-img-m" onerror="this.style.opacity=\'0\'">' : '')+
@@ -122,11 +122,11 @@ document.addEventListener('DOMContentLoaded', () => {
         '</div>'+
       '</a>'+
       '<div class="product-card-hover-overlay" aria-hidden="true">'+
-        '<a href="/products/'+p.slug+'.html" class="product-hover-view">View Details</a>'+
+        '<a href="/products/'+p.slug+'" class="product-hover-view">View Details</a>'+
         '<a href="https://wa.me/'+waNum+'?text='+waText+'" class="product-hover-wa" target="_blank" rel="noopener">Enquire</a>'+
       '</div>'+
       '<div class="product-card-body product-card-body--slim">'+
-        '<h3 class="product-card-name"><a href="/products/'+p.slug+'.html">'+p.title+'</a></h3>'+
+        '<h3 class="product-card-name"><a href="/products/'+p.slug+'">'+p.title+'</a></h3>'+
         '<p class="product-card-price"><span class="price-amt">'+price+'</span></p>'+
       '</div>'+
     '</article>';

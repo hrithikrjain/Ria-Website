@@ -39,45 +39,45 @@
           <div class="dropdown-group">
             <p class="dropdown-group-label">Bridal &amp; Occasion</p>
             <div class="dropdown-links">
-              <a href="/collections/bridal-set.html" class="dropdown-link" role="menuitem">Bridal Set</a>
-              <a href="/collections/choker.html" class="dropdown-link" role="menuitem">Choker</a>
-              <a href="/collections/long-set.html" class="dropdown-link" role="menuitem">Long Set</a>
-              <a href="/collections/necklace-set.html" class="dropdown-link" role="menuitem">Necklace Set</a>
-              <a href="/collections/pendant-set.html" class="dropdown-link" role="menuitem">Pendant Set</a>
+              <a href="/collections/bridal-set" class="dropdown-link" role="menuitem">Bridal Set</a>
+              <a href="/collections/choker" class="dropdown-link" role="menuitem">Choker</a>
+              <a href="/collections/long-set" class="dropdown-link" role="menuitem">Long Set</a>
+              <a href="/collections/necklace-set" class="dropdown-link" role="menuitem">Necklace Set</a>
+              <a href="/collections/pendant-set" class="dropdown-link" role="menuitem">Pendant Set</a>
             </div>
           </div>
           <div class="dropdown-group">
             <p class="dropdown-group-label">Earrings &amp; Head</p>
             <div class="dropdown-links">
-              <a href="/collections/ear-rings.html" class="dropdown-link" role="menuitem">Ear Rings</a>
-              <a href="/collections/ear-chain.html" class="dropdown-link" role="menuitem">Ear Chain</a>
-              <a href="/collections/ear-cup.html" class="dropdown-link" role="menuitem">Ear Cup</a>
-              <a href="/collections/tops.html" class="dropdown-link" role="menuitem">Tops</a>
-              <a href="/collections/nath.html" class="dropdown-link" role="menuitem">Nath</a>
-              <a href="/collections/matha-pati.html" class="dropdown-link" role="menuitem">Matha Pati</a>
-              <a href="/collections/tika-bor.html" class="dropdown-link" role="menuitem">Tika Bor</a>
-              <a href="/collections/kilangi.html" class="dropdown-link" role="menuitem">Kilangi</a>
+              <a href="/collections/ear-rings" class="dropdown-link" role="menuitem">Ear Rings</a>
+              <a href="/collections/ear-chain" class="dropdown-link" role="menuitem">Ear Chain</a>
+              <a href="/collections/ear-cup" class="dropdown-link" role="menuitem">Ear Cup</a>
+              <a href="/collections/tops" class="dropdown-link" role="menuitem">Tops</a>
+              <a href="/collections/nath" class="dropdown-link" role="menuitem">Nath</a>
+              <a href="/collections/matha-pati" class="dropdown-link" role="menuitem">Matha Pati</a>
+              <a href="/collections/tika-bor" class="dropdown-link" role="menuitem">Tika Bor</a>
+              <a href="/collections/kilangi" class="dropdown-link" role="menuitem">Kilangi</a>
             </div>
           </div>
           <div class="dropdown-group">
             <p class="dropdown-group-label">Wrist &amp; Hand</p>
             <div class="dropdown-links">
-              <a href="/collections/bangles.html" class="dropdown-link" role="menuitem">Bangles</a>
-              <a href="/collections/kada-bracelet.html" class="dropdown-link" role="menuitem">Kada Bracelet</a>
-              <a href="/collections/hath-panja.html" class="dropdown-link" role="menuitem">Hath Panja</a>
-              <a href="/collections/hand-cup.html" class="dropdown-link" role="menuitem">Hand Cup</a>
+              <a href="/collections/bangles" class="dropdown-link" role="menuitem">Bangles</a>
+              <a href="/collections/kada-bracelet" class="dropdown-link" role="menuitem">Kada Bracelet</a>
+              <a href="/collections/hath-panja" class="dropdown-link" role="menuitem">Hath Panja</a>
+              <a href="/collections/hand-cup" class="dropdown-link" role="menuitem">Hand Cup</a>
             </div>
           </div>
           <div class="dropdown-group">
             <p class="dropdown-group-label">Waist, Foot &amp; More</p>
             <div class="dropdown-links">
-              <a href="/collections/kamar-patta.html" class="dropdown-link" role="menuitem">Kamar Patta</a>
-              <a href="/collections/payal.html" class="dropdown-link" role="menuitem">Payal</a>
-              <a href="/collections/rings.html" class="dropdown-link" role="menuitem">Rings</a>
-              <a href="/collections/mangal-sutra.html" class="dropdown-link" role="menuitem">Mangal Sutra</a>
-              <a href="/collections/sindur-dabi.html" class="dropdown-link" role="menuitem">Sindur Dabi</a>
-              <a href="/collections/ghrom-mala.html" class="dropdown-link" role="menuitem">Ghrom Mala</a>
-              <a href="/collections/western-jewellery.html" class="dropdown-link" role="menuitem">Western Jewellery</a>
+              <a href="/collections/kamar-patta" class="dropdown-link" role="menuitem">Kamar Patta</a>
+              <a href="/collections/payal" class="dropdown-link" role="menuitem">Payal</a>
+              <a href="/collections/rings" class="dropdown-link" role="menuitem">Rings</a>
+              <a href="/collections/mangal-sutra" class="dropdown-link" role="menuitem">Mangal Sutra</a>
+              <a href="/collections/sindur-dabi" class="dropdown-link" role="menuitem">Sindur Dabi</a>
+              <a href="/collections/ghrom-mala" class="dropdown-link" role="menuitem">Ghrom Mala</a>
+              <a href="/collections/western-jewellery" class="dropdown-link" role="menuitem">Western Jewellery</a>
             </div>
           </div>
         </div>
@@ -88,12 +88,12 @@
           Occasions <span class="nav-chevron" aria-hidden="true">›</span>
         </button>
         <div class="nav-dropdown occasions-dropdown" role="menu">
-          <a href="/occasions/bridal.html" class="dropdown-link" role="menuitem">Bridal</a>
-          <a href="/occasions/reception.html" class="dropdown-link" role="menuitem">Reception</a>
-          <a href="/occasions/mehendi.html" class="dropdown-link" role="menuitem">Mehendi</a>
-          <a href="/occasions/sangeet.html" class="dropdown-link" role="menuitem">Sangeet</a>
-          <a href="/occasions/festive.html" class="dropdown-link" role="menuitem">Festive</a>
-          <a href="/occasions/party-wear.html" class="dropdown-link" role="menuitem">Party Wear</a>
+          <a href="/occasions/bridal" class="dropdown-link" role="menuitem">Bridal</a>
+          <a href="/occasions/reception" class="dropdown-link" role="menuitem">Reception</a>
+          <a href="/occasions/mehendi" class="dropdown-link" role="menuitem">Mehendi</a>
+          <a href="/occasions/sangeet" class="dropdown-link" role="menuitem">Sangeet</a>
+          <a href="/occasions/festive" class="dropdown-link" role="menuitem">Festive</a>
+          <a href="/occasions/party-wear" class="dropdown-link" role="menuitem">Party Wear</a>
         </div>
       </li>
 
@@ -151,30 +151,30 @@
         Collections <span>+</span>
       </button>
       <div class="mobile-nav-accordion" id="acc-collections">
-        <a href="/collections/bridal-set.html">Bridal Set</a>
-        <a href="/collections/choker.html">Choker</a>
-        <a href="/collections/necklace-set.html">Necklace Set</a>
-        <a href="/collections/long-set.html">Long Set</a>
-        <a href="/collections/ear-rings.html">Ear Rings</a>
-        <a href="/collections/bangles.html">Bangles</a>
-        <a href="/collections/kada-bracelet.html">Kada Bracelet</a>
-        <a href="/collections/matha-pati.html">Matha Pati</a>
-        <a href="/collections/mangal-sutra.html">Mangal Sutra</a>
-        <a href="/collections/western-jewellery.html">Western Jewellery</a>
-        <a href="/collections/pendant-set.html">Pendant Set</a>
-        <a href="/collections/rings.html">Rings</a>
-        <a href="/collections/payal.html">Payal</a>
-        <a href="/collections/nath.html">Nath</a>
-        <a href="/collections/kilangi.html">Kilangi</a>
-        <a href="/collections/tika-bor.html">Tika Bor</a>
-        <a href="/collections/ear-chain.html">Ear Chain</a>
-        <a href="/collections/ear-cup.html">Ear Cup</a>
-        <a href="/collections/tops.html">Tops</a>
-        <a href="/collections/hath-panja.html">Hath Panja</a>
-        <a href="/collections/hand-cup.html">Hand Cup</a>
-        <a href="/collections/kamar-patta.html">Kamar Patta</a>
-        <a href="/collections/sindur-dabi.html">Sindur Dabi</a>
-        <a href="/collections/ghrom-mala.html">Ghrom Mala</a>
+        <a href="/collections/bridal-set">Bridal Set</a>
+        <a href="/collections/choker">Choker</a>
+        <a href="/collections/necklace-set">Necklace Set</a>
+        <a href="/collections/long-set">Long Set</a>
+        <a href="/collections/ear-rings">Ear Rings</a>
+        <a href="/collections/bangles">Bangles</a>
+        <a href="/collections/kada-bracelet">Kada Bracelet</a>
+        <a href="/collections/matha-pati">Matha Pati</a>
+        <a href="/collections/mangal-sutra">Mangal Sutra</a>
+        <a href="/collections/western-jewellery">Western Jewellery</a>
+        <a href="/collections/pendant-set">Pendant Set</a>
+        <a href="/collections/rings">Rings</a>
+        <a href="/collections/payal">Payal</a>
+        <a href="/collections/nath">Nath</a>
+        <a href="/collections/kilangi">Kilangi</a>
+        <a href="/collections/tika-bor">Tika Bor</a>
+        <a href="/collections/ear-chain">Ear Chain</a>
+        <a href="/collections/ear-cup">Ear Cup</a>
+        <a href="/collections/tops">Tops</a>
+        <a href="/collections/hath-panja">Hath Panja</a>
+        <a href="/collections/hand-cup">Hand Cup</a>
+        <a href="/collections/kamar-patta">Kamar Patta</a>
+        <a href="/collections/sindur-dabi">Sindur Dabi</a>
+        <a href="/collections/ghrom-mala">Ghrom Mala</a>
       </div>
     </div>
     <div class="mobile-nav-group">
@@ -182,12 +182,12 @@
         Occasions <span>+</span>
       </button>
       <div class="mobile-nav-accordion" id="acc-occasions">
-        <a href="/occasions/bridal.html">Bridal</a>
-        <a href="/occasions/reception.html">Reception</a>
-        <a href="/occasions/mehendi.html">Mehendi</a>
-        <a href="/occasions/sangeet.html">Sangeet</a>
-        <a href="/occasions/festive.html">Festive</a>
-        <a href="/occasions/party-wear.html">Party Wear</a>
+        <a href="/occasions/bridal">Bridal</a>
+        <a href="/occasions/reception">Reception</a>
+        <a href="/occasions/mehendi">Mehendi</a>
+        <a href="/occasions/sangeet">Sangeet</a>
+        <a href="/occasions/festive">Festive</a>
+        <a href="/occasions/party-wear">Party Wear</a>
       </div>
     </div>
     <a href="/pages/about.html" class="mobile-nav-link">About</a>
@@ -258,27 +258,27 @@
       <div>
         <span class="footer-col-title">Collections</span>
         <div class="footer-links">
-          <a href="/collections/bridal-set.html" class="footer-link">Bridal Set</a>
-          <a href="/collections/choker.html" class="footer-link">Choker</a>
-          <a href="/collections/necklace-set.html" class="footer-link">Necklace Set</a>
-          <a href="/collections/long-set.html" class="footer-link">Long Set</a>
-          <a href="/collections/bangles.html" class="footer-link">Bangles</a>
-          <a href="/collections/kada-bracelet.html" class="footer-link">Kada Bracelet</a>
-          <a href="/collections/ear-rings.html" class="footer-link">Ear Rings</a>
-          <a href="/collections/matha-pati.html" class="footer-link">Matha Pati</a>
-          <a href="/collections/mangal-sutra.html" class="footer-link">Mangal Sutra</a>
-          <a href="/collections/western-jewellery.html" class="footer-link">Western Jewellery</a>
+          <a href="/collections/bridal-set" class="footer-link">Bridal Set</a>
+          <a href="/collections/choker" class="footer-link">Choker</a>
+          <a href="/collections/necklace-set" class="footer-link">Necklace Set</a>
+          <a href="/collections/long-set" class="footer-link">Long Set</a>
+          <a href="/collections/bangles" class="footer-link">Bangles</a>
+          <a href="/collections/kada-bracelet" class="footer-link">Kada Bracelet</a>
+          <a href="/collections/ear-rings" class="footer-link">Ear Rings</a>
+          <a href="/collections/matha-pati" class="footer-link">Matha Pati</a>
+          <a href="/collections/mangal-sutra" class="footer-link">Mangal Sutra</a>
+          <a href="/collections/western-jewellery" class="footer-link">Western Jewellery</a>
         </div>
       </div>
       <div>
         <span class="footer-col-title">Occasions</span>
         <div class="footer-links">
-          <a href="/occasions/bridal.html" class="footer-link">Bridal</a>
-          <a href="/occasions/reception.html" class="footer-link">Reception</a>
-          <a href="/occasions/mehendi.html" class="footer-link">Mehendi</a>
-          <a href="/occasions/sangeet.html" class="footer-link">Sangeet</a>
-          <a href="/occasions/festive.html" class="footer-link">Festive</a>
-          <a href="/occasions/party-wear.html" class="footer-link">Party Wear</a>
+          <a href="/occasions/bridal" class="footer-link">Bridal</a>
+          <a href="/occasions/reception" class="footer-link">Reception</a>
+          <a href="/occasions/mehendi" class="footer-link">Mehendi</a>
+          <a href="/occasions/sangeet" class="footer-link">Sangeet</a>
+          <a href="/occasions/festive" class="footer-link">Festive</a>
+          <a href="/occasions/party-wear" class="footer-link">Party Wear</a>
         </div>
       </div>
       <div>

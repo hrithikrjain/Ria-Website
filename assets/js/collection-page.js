@@ -146,7 +146,7 @@ function renderCard(p) {
   const waText   = encodeURIComponent(
     `Hi! I'm interested in "${p.title}" from Ria Art Jewellery \u{1F49B}\n` +
     `Category: ${p.category}\n` +
-    `Link: ${window.location.origin}/products/${p.slug}.html\n\n` +
+    `Link: ${window.location.origin}/products/${p.slug}\n\n` +
     `Please share availability and details. Thank you!`
   );
   const badges = [
@@ -163,7 +163,7 @@ function renderCard(p) {
   data-metal="${p.metal || ''}"
   data-price-band="${p.price_band || ''}">
 
-  <a href="/products/${p.slug}.html" class="product-card-link">
+  <a href="/products/${p.slug}" class="product-card-link">
     <div class="product-card-image-wrap">
       <img src="/assets/images/products/${p.images[0]}"
            alt="${p.title}" loading="lazy"
@@ -181,7 +181,7 @@ function renderCard(p) {
 
   <!-- Hover overlay: sibling of anchor to avoid nested anchors -->
   <div class="product-card-hover-overlay" aria-hidden="true">
-    <a href="/products/${p.slug}.html" class="product-hover-view">View Details</a>
+    <a href="/products/${p.slug}" class="product-hover-view">View Details</a>
     <a href="https://wa.me/${WA_NUMBER}?text=${waText}"
        class="product-hover-wa" target="_blank" rel="noopener">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#25D366"/><path fill="#FFFFFF" d="M12 4C7.582 4 4 7.582 4 12c0 1.418.373 2.748 1.024 3.896L4 20.5l4.736-1.24A7.948 7.948 0 0012 20c4.418 0 8-3.582 8-8S16.418 4 12 4z"/><path fill="#25D366" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
@@ -199,7 +199,7 @@ function renderCard(p) {
 
   <div class="product-card-body product-card-body--slim">
     <h3 class="product-card-name">
-      <a href="/products/${p.slug}.html">${p.title}</a>
+      <a href="/products/${p.slug}">${p.title}</a>
     </h3>
     <p class="product-card-price"><span class="price-amt">${price}</span></p>
   </div>
@@ -242,7 +242,7 @@ function renderRelated(currentCat) {
   ].filter(c => c.name !== currentCat).slice(0, 4);
 
   related.innerHTML = cats.map(c => `
-    <a href="/collections/${c.slug}.html" class="collection-card" style="aspect-ratio:1">
+    <a href="/collections/${c.slug}" class="collection-card" style="aspect-ratio:1">
       <img src="/assets/images/products/${c.img}" alt="${c.name}"
            loading="lazy" class="collection-card-bg">
       <div class="collection-card-overlay"></div>
