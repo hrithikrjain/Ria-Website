@@ -2,8 +2,8 @@ backend:
   name: github
   repo: hrithikrjain/Ria-Website
   branch: main
-  # Replace base_url below with your Cloudflare Worker URL after deploying the OAuth worker
-  base_url: https://ria-website.pages.dev/
+  base_url: https://ria-website.pages.dev
+  auth_endpoint: /api/auth
 
 media_folder: assets/images/products
 public_folder: /assets/images/products
