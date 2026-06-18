@@ -14,6 +14,8 @@ collections:
     label: Products
     label_singular: Product
     folder: assets/data/products
+    format: json
+    extension: json
     create: true
     delete: true
     slug: "{{slug}}"
@@ -210,6 +212,8 @@ collections:
     label: Collections
     label_singular: Collection
     folder: assets/data/collections
+    format: json
+    extension: json
     create: true
     delete: true
     slug: "{{slug}}"
@@ -232,6 +236,8 @@ collections:
     label: Occasions
     label_singular: Occasion
     folder: assets/data/occasions
+    format: json
+    extension: json
     create: true
     delete: true
     slug: "{{slug}}"
