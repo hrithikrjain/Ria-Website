@@ -168,9 +168,9 @@ collections:
       - label: "Availability"
         name: availability
         widget: select
-        default: "In Stock"
+        default: "Available"
         options:
-          - "In Stock"
+          - "Available"
           - "Limited Stock"
           - "Last Few Pieces"
           - "Made to Order"
@@ -269,6 +269,7 @@ collections:
               - { label: "Subtitle", name: subtitle, widget: string, required: false }
               - { label: "Button Text", name: cta_text, widget: string, default: "Explore Collections" }
               - { label: "Button Link", name: cta_link, widget: string, default: "/" }
+              - { label: "Overlay Opacity (0–1)", name: overlay_opacity, widget: number, default: 0.45, value_type: float, min: 0, max: 1, step: 0.05, required: false }
           - label: "Explore Collections (homepage grid)"
             name: explore_collections
             widget: list
@@ -283,6 +284,14 @@ collections:
             fields:
               - { label: "Occasion Slug", name: slug, widget: string }
               - { label: "Display Label", name: label, widget: string }
+          - label: "Featured Products Config"
+            name: featured_config
+            widget: object
+            required: false
+            fields:
+              - { label: "Section Title", name: section_title, widget: string, default: "Featured Pieces" }
+              - { label: "Section Subtitle", name: section_subtitle, widget: string, required: false }
+              - { label: "Max Items to Show", name: max_items, widget: number, default: 8 }
           - label: "Testimonials"
             name: testimonials
             widget: list
@@ -292,6 +301,14 @@ collections:
               - { label: "Location", name: location, widget: string, required: false }
               - { label: "Review Text", name: text, widget: text }
               - { label: "Rating (1–5)", name: rating, widget: number, default: 5 }
+          - label: "Trust Badges"
+            name: trust_badges
+            widget: list
+            required: false
+            summary: "{{fields.text}}"
+            fields:
+              - { label: "Icon Key", name: icon, widget: string, hint: "handcraft / quality / shipping / whatsapp" }
+              - { label: "Label Text", name: text, widget: string }
 
 # ─── SITE SETTINGS ────────────────────────────────────────────────────────────
   - name: settings
@@ -311,7 +328,18 @@ collections:
           - { label: "Address", name: contact_address, widget: string, required: false }
           - { label: "Business Hours", name: hours, widget: string, required: false }
           - { label: "Instagram URL", name: social_instagram, widget: string, required: false }
+          - { label: "Facebook URL", name: social_facebook, widget: string, required: false }
+          - { label: "YouTube URL", name: social_youtube, widget: string, required: false }
+          - { label: "WhatsApp Message Template", name: whatsapp_message_template, widget: text, required: false, hint: "Opening line sent when a customer taps Enquire on WhatsApp" }
           - { label: "About Text (footer)", name: footer_about, widget: text, required: false }
+          - label: "Trust Badges"
+            name: trust_badges
+            widget: list
+            required: false
+            summary: "{{fields.text}}"
+            fields:
+              - { label: "Icon Key", name: icon, widget: string }
+              - { label: "Label Text", name: text, widget: string }
 
 # ─── PAGES ────────────────────────────────────────────────────────────────────
   - name: pages

@@ -8,7 +8,8 @@
       "Bash(python scripts/create_collections.py)",
       "Bash(python scripts/create_occasions.py)",
       "Bash(node scripts/build.js)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(grep -rn \"homepage.json\\\\|homepage\\\\\\\\.json\\\\|fetch.*homepage\" \"C:/Users/Sandesh Jain/Downloads/Ria-Website/assets/js/\")"
     ]
   }
 }

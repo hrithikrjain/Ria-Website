@@ -54,11 +54,19 @@
 ══════════════════════════════════════════════════════════ -->
 <div class="announcement-bar" role="marquee" aria-label="Announcements">
   <div class="ticker-track">
-    <span class="ticker-content">
+    <span class="ticker-content" id="tickerContent">
       ✦ New Arrivals — Bridal Sets Now Live ✦ Handcrafted Jewellery by Skilled Karigars ✦ Lifetime Guarantee on Beads ✦ WhatsApp for Styling Help: +91 98699 39003 ✦ No Exchange / No Return — Please Review Before Enquiring ✦ Free Delivery on Orders Above ₹2,000 ✦ New Arrivals — Bridal Sets Now Live ✦ Handcrafted Jewellery by Skilled Karigars ✦ Lifetime Guarantee on Beads ✦ WhatsApp for Styling Help: +91 98699 39003 ✦ No Exchange / No Return — Please Review Before Enquiring ✦ Free Delivery on Orders Above ₹2,000
     </span>
   </div>
 </div>
+<script>
+  fetch('/assets/data/homepage.json').then(r=>r.json()).then(d=>{
+    if(d.announcement_bar_text){
+      var t=document.getElementById('tickerContent');
+      if(t)t.textContent=' '+d.announcement_bar_text+' ❖ '+d.announcement_bar_text;
+    }
+  }).catch(function(){});
+</script>
 
 <!-- ══════════════════════════════════════════════════════
      NAVIGATION
